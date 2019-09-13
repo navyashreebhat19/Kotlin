@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:weightSum="3" tools:layout_editor_absoluteY="253dp" tools:layout_editor_absoluteX="16dp">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="45dp"
+                      android:orientation="horizontal"
+                      android:weightSum="3"
+
+                      android:background="@color/colorLightPink">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:src="@drawable/back"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:id="@+id/backDayone"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginLeft="20dp"
+                      android:textColor="@color/colorPink"
+                      android:text="Water Count"
+                      android:textSize="30dp"
+                      android:gravity="center"
+                      android:layout_gravity="center"
+                      android:layout_weight="1"
+                      android:id="@+id/setDay"
+                      android:fontFamily="sans-serif-black"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:src="@drawable/name"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:id="@+id/nextDayone"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:weightSum="1"
+                      android:gravity="center"
+                      android:id="@+id/linearimage">
+            <ImageView
+                    android:id="@+id/image_view_glass1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:background="@drawable/glassone"
+            />
+            <ImageView
+                    android:id="@+id/image_view_glass2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:background="@drawable/watertwo"
+            />
+            <ImageView
+                    android:id="@+id/image_view_glass3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:background="@drawable/waterthre"
+            />
+            <ImageView
+                    android:id="@+id/image_view_glass4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:background="@drawable/glassfinal"
+            />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:weightSum="4"
+
+                      android:layout_gravity="bottom"
+
+                      android:gravity="bottom">
+            <RadioGroup android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                <RadioButton android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="1-3 Glass of water"
+                             android:id="@+id/oneglass"
+                             android:fontFamily="cursive"
+                             android:textSize="30dp"
+                             android:textColor="@color/colorPurple"/>
+                <RadioButton android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="4-6 Glass of water"
+                             android:id="@+id/twoglass"
+                             android:fontFamily="cursive"
+                             android:textSize="30dp"
+                             android:textColor="@color/colorPurple"/>
+                <RadioButton android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="7-9 Glass of water"
+                             android:id="@+id/threeglass"
+                             android:fontFamily="cursive"
+                             android:textSize="30dp"
+                             android:textColor="@color/colorPurple"/>
+                <RadioButton android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="10-12 Glass of water"
+                             android:id="@+id/fourglass"
+                             android:fontFamily="cursive"
+                             android:textSize="30dp"
+                             android:textColor="@color/colorPurple"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

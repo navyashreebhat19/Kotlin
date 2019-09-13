@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:weightSum="3"
+       >
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp">
+        <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="horizontal"
+        >
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#000">
+    <TableLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:divider="?android:attr/dividerVertical"
+
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="10dp"
+                 android:layout_marginBottom="10dp"
+                 android:layout_marginTop="10dp"
+    android:stretchColumns="0"
+                 android:background="#000">
+
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+            <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Height"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPink"
+            android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Weight"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="20"
+
+
+      >
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="Weights in lbs"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPink"
+                   />
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="4'10''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="4'11''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="5'"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="5' 1''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="5' 2''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="5' 3''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="5' 4''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="5' 5''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="5' 6''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="5' 7''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="5' 8''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="5' 9''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="5'10''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="5'11''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="6'"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="6' 1''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="6' 2''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="6' 3''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="6' 4''"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="20"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+            <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Normal"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorPink"
+                   />
+
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="91 to 118"
+                    android:textSize="12dp"
+android:layout_gravity="center"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+
+
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="94 to 123"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="97 to 127"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="100 to 131"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="104 to 135"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="107 to 140"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="110 to 144"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="114 to 149"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="118 to 154"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="121 to 158"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="125 to 163"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="128 to 168"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="132 to 173"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="136 to 178 "
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="140 to 183"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="144 to 188"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="148 to 193"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="152 to 199"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+
+
+
+            <TextView
+                    android:layout_height="20dp"
+                    android:layout_width="wrap_content"
+                    android:text="156 to 204"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPink"
+                    android:layout_weight="1"/>
+
+
+
+
+        </LinearLayout>
+            <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="20"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                   >
+                <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="OverWeight"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPink"
+                        />
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="119 to 142"
+                        android:textSize="12dp"
+                        android:layout_gravity="center"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="124 to 147"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="128 to 152"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="132 to 152"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="136 to 163"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="141 to 168"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="145 to 173"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="150 to 179"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="155 to 185"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="159 to 190"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="164 to 196"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="169 to 202"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="174 to 208"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="179 to 214 "
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="184 to 220"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="189 to 226"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="194 to 232"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="200 to 239"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+
+
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="205 to 245"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        android:layout_weight="1"/>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="20"
+
+          >
+                <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Obese"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPink"
+
+               />
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="143 to 186"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                      />
+
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="148 to 193"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        />
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="153 to 199"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                       />
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="158 to 206"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                       />
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="164 to 213"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                       />
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="169 to 220"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        />
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="174 to 227"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                       />
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="180 to 234"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                       />
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="186 to 241"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        />
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="191 to 249"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                       />
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="197 to 256"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                      />
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="203 to 263"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                        />
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="209 to 271"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                       />
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="215 to 279"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                       />
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="221 to 287"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                      />
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="227 to 295"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                      />
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="233 to 303"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                       />
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="240 to 311"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+                       />
+
+
+
+                <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="246 to 320"
+                        android:textSize="12dp"
+
+                        android:textStyle="normal"
+                        android:textColor="@color/colorPink"
+
+                />
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+        </LinearLayout>
+        </HorizontalScrollView>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginBottom="10dp"
+
+    >
+
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="2dp"
+        app:cardCornerRadius="10dp"
+                android:background="#E91E63"
+      >
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:layout_weight="1">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                android:text="Converter from lbs to kg"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_weight="1">
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                android:text="lbs"
+                          android:textColor="#000"
+                android:textSize="20dp"
+                          android:gravity="center"
+                android:layout_weight="1"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="kg"
+                          android:textColor="#000"
+                          android:layout_gravity="center"
+                          android:gravity="center"
+                          android:textSize="20dp"
+                          android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_weight="1">
+                <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:hint="Enter lbs  value here"
+                android:id="@+id/lbsvalue"
+                          android:textColor="#000"
+                android:textSize="15dp"
+                          android:gravity="center"
+                          android:background="@android:color/transparent"
+                android:layout_weight="1"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:hint = "Value in kg"
+                          android:id="@+id/kgvalue"
+                          android:textColor="#000"
+                          android:gravity="center"
+                          android:textSize="15dp"
+                          android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_weight="1"
+                          android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff">
+                <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Press Ok"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:textColor="#E92D2D"
+                android:gravity="center"
+                        android:id="@+id/buttonOk"
+                />
+            </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
